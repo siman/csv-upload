@@ -54,3 +54,12 @@ node gen-20K-lines-csv.js
 ```bash
 node gen-10MB-csv.js
 ```
+
+
+### or even 1GB CSV:
+
+It will take some time. Be patient.
+
+```bash
+node gen-1GB-csv.js
+```
