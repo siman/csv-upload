@@ -3,6 +3,10 @@
 Client app uses HTML5 `File.slice()` to read CSV file on a client and send bulk of lines to server 
 until entire file has been read.
 
+![Webapp screenshot: Uploading a CSV](./screenshots/webapp-uploading.png)
+
+## Storage
+
 On server we use **SQLite3** to store and retrieve saved user records.
 
 App can work with both in-file or in-memory version of SQLite. To change a storage type go to file 
